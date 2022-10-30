@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import styles from './Modal.module.scss';
+import styles from '../Styles.module.scss';
 import PropTypes from 'prop-types';
 
 export class Modal extends Component {
@@ -32,7 +32,7 @@ export class Modal extends Component {
     return (
       <div className={styles.Overlay} onClick={this.closeByBackdrop}>
         <div className={styles.Modal}>
-          <button className={styles.btn} onClick={this.props.closeModal}>
+          <button className={styles.Button} onClick={this.props.closeModal}>
             &#9747;
           </button>
           <img src={url} alt={tags} />

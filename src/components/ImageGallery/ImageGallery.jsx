@@ -1,5 +1,5 @@
 import { ImageGalleryItem } from './ImageGalleryItem/ImageGalleryItem';
-import styles from './ImageGallery.module.scss';
+import styles from '../Styles.module.scss';
 import PropTypes from 'prop-types';
 
 export const ImageGallery = ({ images, openModal = () => {} }) => {

@@ -6,7 +6,7 @@ import { ImageGallery } from './ImageGallery/ImageGallery';
 import { Button } from './Button/Button';
 import { api } from './Services/api';
 import { mapper } from './Services/Mapper';
-import styles from './Services.module.scss';
+import styles from './Styles.module.scss';
 
 // import { createRef } from 'react';
 // import { postsRequest } from './services/api';

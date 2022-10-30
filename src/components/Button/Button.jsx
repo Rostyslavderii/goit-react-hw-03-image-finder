@@ -1,4 +1,4 @@
-import styles from './Button.module.scss';
+import styles from '../Styles.module.scss';
 import PropTypes from 'prop-types';
 
 export const Button = ({ text, handlerClick }) => {

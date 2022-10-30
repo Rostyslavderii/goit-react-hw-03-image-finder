@@ -1,4 +1,4 @@
-import styles from './SearchBar.module.scss';
+import styles from '../Styles.module.scss';
 import { CiSearch } from 'react-icons/ci';
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
@@ -24,7 +24,7 @@ export class SearchBar extends Component {
   render() {
     return (
       <>
-        <header className={styles.Searchbar}>
+        <header className={styles.SearchBar}>
           <form className={styles.SearchForm} onSubmit={this.handleSubmit}>
             <button type="submit" className={styles.SearchFormButton}>
               <span className={styles.SearchFormButtonLabel}>Search</span>
